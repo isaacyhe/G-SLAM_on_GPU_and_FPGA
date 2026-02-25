@@ -1,0 +1,73 @@
+# Editor swap files
+*.swp
+*.swo
+*.swn
+*.swm
+*~
+
+# Compiled binaries
+*.o
+*.out
+*.exe
+GSLAM
+GSLAM.O0
+GSLAM.O3
+*.cuda
+GSLAM.cpu
+GSLAM.cpu_test
+GSLAM.gpu_test
+GSLAM.asan
+GSLAM.dbg
+GSLAM.emu
+GSLAM.s10
+GSLAM.a10
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Job scheduler output files
+*.e[0-9]*
+*.o[0-9]*
+test.sh.e*
+test.sh.o*
+s10_compile.sh.e*
+s10_compile.sh.o*
+
+# Build artifacts
+*.a
+*.so
+*.dylib
+
+# Archive files (keep original zips but not extracted)
+# Commented out to keep the zip files in repo
+# *.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# CUDA/FPGA build artifacts
+*.cubin
+*.fatbin
+*.ptx
+
+# Temporary data files
+*.tmp
+*.log
+
+# Stale outputs / duplicates
+data/after_victoria-park*
+py/
+
+# Pose dump directories
+scripts/_pose_dumps/
+scripts/_pose_dumps_custom/
+scripts/_pose_dumps_vp/

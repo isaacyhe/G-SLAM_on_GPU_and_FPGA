@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the relevant paper(s) below."
+title: "Accelerated G-SLAM on FPGA and GPU"
+repository-code: "https://github.com/isaacyhe/g-slam_on_fpga_and_gpu"
+license: MIT
+
+authors:
+  - family-names: Zheng
+    given-names: Junyuan
+    affiliation: "Shenyang University of Technology"
+  - family-names: Wu
+    given-names: Junfeng
+    affiliation: "Shenyang University of Technology"
+  - family-names: He
+    given-names: Yuan
+    affiliation: "Keio University / Shenyang University of Technology"
+    email: isaacyhe@acm.org
+  - family-names: Kondo
+    given-names: Masaaki
+    affiliation: "Keio University / RIKEN"
+    email: kondo@acsl.ics.keio.ac.jp
+
+preferred-citation:
+  type: conference-paper
+  title: "Exploiting Data Parallelism in Graph-Based Simultaneous Localization and Mapping: A Case Study with GPU Accelerations"
+  authors:
+    - family-names: Zheng
+      given-names: Junyuan
+    - family-names: He
+      given-names: Yuan
+    - family-names: Kondo
+      given-names: Masaaki
+  booktitle: "Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia)"
+  year: 2023
+  pages: "126-139"
+
+references:
+  - type: conference-paper
+    title: "Accelerating Graph-Based SLAM through Data Parallelism and Mixed Precision on FPGAs"
+    authors:
+      - family-names: Wu
+        given-names: Junfeng
+      - family-names: He
+        given-names: Yuan
+      - family-names: Kondo
+        given-names: Masaaki
+    booktitle: "Proceedings of the IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)"
+    year: 2023
