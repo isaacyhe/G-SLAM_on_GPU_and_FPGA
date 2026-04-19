@@ -2,14 +2,6 @@
 
 This repository contains implementations of **Graph-based Simultaneous Localization and Mapping (G-SLAM)** accelerated on GPU (CUDA) and FPGA (SYCL/oneAPI). It accompanies two peer-reviewed conference papers.
 
-## Publications
-
-[1] J. Zheng, Y. He, and M. Kondo, "Exploiting Data Parallelism in Graph-Based Simultaneous Localization and Mapping: A Case Study with GPU Accelerations," in *Proc. International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia)*, Singapore, Feb. 2023, pp. 126–139.
-
-[2] J. Wu, Y. He, and M. Kondo, "Accelerating Graph-Based SLAM through Data Parallelism and Mixed Precision on FPGAs," in *Proc. IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)*, 2023.
-
-Papers are available from the conference proceedings.
-
 ## Background
 
 G-SLAM represents the robot's environment as a pose graph. Solving the back-end requires solving a sparse **3N×3N linear system Ω·Δx = ξ** at each Gauss-Newton iteration, where N is the number of trajectory poses. This solve dominates runtime (~95% for N=800).
